@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo López Galería de Arte</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e81fb07378.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <meta name="description" content="Galeria de arte Ricardo Lopez donde se realizan subastas presenciales y por zoom"/>
+    <meta name="keywords" content="arte, subastas, cuadros"/>
+    <meta name="robots" content="index"/>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html"><img src="../img/Ricardo-Lopez.png" class="titulo-img" alt="logo" loading="lazy"></a>
+        <nav id="navbar"></nav>
+        <div class="content-flags">
+            <a href="../index.html"><img src="../img/espania.png" alt="Bandera de España" class="flags" id="es" loading="lazy"></a>
+            <a href="index.html"><img src="../img/usa.png" alt="Bandera de EE.UU" class="flags" id="en" loading="lazy"></a>
+        </div>
+    </header>
+    <div class="card" >
+        <div class="card2">
+            <img src="../img/etiqueta.png" class="etiqueta" alt="etiqueta" loading="lazy">
+        </div>
+    </div>
+    <main>
+        <nav class="navbarH"></nav>
+            <section class="slider">
+                <ul class="content-img">
+                    <li class="content-imgs"><div class="img img1"></div></li>
+                    <li class="content-imgs"><div class="img img2"></div></li>
+                    <li class="content-imgs"><div class="img img3"></div></li>
+                    <li class="content-imgs"><div class="img img4"></div></li>
+                </ul>
+            </section>
+        <hr>
+        <section class="slider-2">
+            <div class="slider-track">
+                <div class="slide">
+                    <img src="../img/rutini.png" alt="sponsor-rutini" class="img-sponsor" loading="lazy">
+                    <img src="../img/las_brisas.png"  alt="sponsor-las-brisas" class="img-sponsor" loading="lazy">
+                    <img src="../img/juana_de_arte.png" alt="sponsor-juana-de-arte" class="img-retoque" loading="lazy">
+                    <img src="../img/moderna.png" alt="sponsor-moderna" class="img-retoque2" loading="lazy"> 
+                </div>
+                
+                <div class="slide">
+                    <img src="../img/rutini.png" alt="sponsor-rutini" class="img-sponsor" loading="lazy">
+                    <img src="../img/las_brisas.png" alt="sponsor-las-brisas" class="img-sponsor" loading="lazy">
+                    <img src="../img/juana_de_arte.png" alt="sponsor-juana-de-arte" class="img-retoque" loading="lazy">
+                    <img src="../img/moderna.png" alt="sponsor-moderna" class="img-retoque2" loading="lazy"> 
+                </div>
+            </div> 
+        </section>
+        <hr>
+        <section class="content-divs-2">
+            <div class="content-contact">
+                <h2>Contact Us</h2>
+                <p class="text">To make inquiries and visit the gallery.</p>
+                <ul class="contact">
+                    <li class="info">
+                        <a href="https://api.whatsapp.com/send/?phone=5491155249054&text=Quiero+recibir+mas+informaci%C3%B3n&app_absent=0" class="link-icon">
+                            <i class="fa-solid fa-square-phone"></i> 1155249054
+                        </a>
+                    </li>
+                    <li class="info">
+                        <a href="mailto:ricardolopezaleria@yahoo.com"  target="_blank" class="link-icon">
+                            <i class="fa-solid fa-envelopes-bulk"></i> ricardolopezgaleria@yahoo.com
+                        </a>
+                    </li>
+                    <li class="info">
+                        <a target="_blank" class="link-icon" href="https://www.instagram.com/ricardolopez_galeria/"><i class="fa-brands fa-instagram"></i> ricardolopez_galeria
+                        </a>
+                    </li>
+                    <li class="info">
+                        <a target="_blank" href="https://www.facebook.com/GaleriaRicardoLopez" class="link-icon"><i class="fa-brands fa-facebook-square"></i>  Galeria de arte Ricardo Lopez
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-news">
+                <h2>I received news</h2>
+                <p class="text">Register your email to receive news in real time about Ricardo Lopez Gallery.</p>
+                <form class="form" action="php/register.php" method="post">
+                    <div class="input-box">
+                        <input type="mail" placeholder="Your e-mail.." class="mail" id="mail" name="email" required>
+                    </div>
+                    <button class="button" type="submit"> Send </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="footer"></footer>
+    <script src="../js/menuham.js"></script>
+    <script src="componentes/navbarHam.js"></script>
+    <script src="componentes/navbar.js"></script>
+    <script src="componentes/footer.js"></script>
+</body>
+</html>

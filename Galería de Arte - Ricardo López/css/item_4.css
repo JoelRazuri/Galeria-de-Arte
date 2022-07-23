@@ -1,0 +1,143 @@
+/* Main */
+
+.h1{
+    font-family: 'Trajan Pro', serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+    text-decoration-color: #0a2672;
+    -moz-text-decoration-color: #0a2672;
+}
+
+.content-dates{
+    height: 13em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(130deg, #0e47e6 0%, #0a2672 100%);
+    width: 15.7em;
+    height: 5em;
+    border: 1px solid #0a2672;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+.date:nth-child(2){
+   align-self: flex-end;
+}
+
+.link-icon{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link-icon:hover{
+    color: #ad9625;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.content-social{
+    margin: 6em  12em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p{
+    font-size: 1.3em;
+}
+
+.link-img:hover{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+
+/* Responsive */
+
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+    /* Main */
+
+    .content-social{
+        margin: 6em  5em;
+    }
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 640px) {
+    /* Main */
+
+    .content-social{
+        margin: 6em  5em;
+    }
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 500px) {
+    /* Main */
+
+    .h1{
+        font-size: 2.5em;
+    }
+
+    .content-dates{
+        flex-direction: column;
+        align-items: center;
+        height: 20em;
+    }
+
+    .date:nth-child(2){
+        align-self: auto;
+     }
+    
+    .date{
+        width: 15em;
+        height: 5em;
+    }
+    
+    .link-icon{
+        font-size: 1em;
+    }
+
+    .content-social{
+        margin: 2em 0 0 0;
+        display: flex;
+        height: 10em;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .content-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-card img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .p{
+        font-size: .5em;
+    }
+  } 
